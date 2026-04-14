@@ -9,7 +9,6 @@
 /*-----------------------------------------------------------CLASSE GLOBAL------------------------------------------------------*/
 body {
     font-family: "Inter", sans-serif;
-    background-color: #103571;
 }
 
 h1 {
@@ -185,6 +184,10 @@ header{
 }
 
 /*----------------------------------------------------CARD ET BOUTTON----------------------------------------------*/
+.bg-blue{
+    background-color: #103571;
+}
+
 .btn-gris{
     background-color: #bbc3d0;
     padding: 10px 30px;
