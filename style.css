@@ -29,6 +29,18 @@ a{
 
 header{
     padding: 40px 80px;
+    border-radius:0px 0px 15px 15px;
+}
+
+footer{
+    padding: 40px 80px;
+    border-radius:15px 15px 0px 0px;
+}
+
+input{
+    padding: 15px 15px;
+    border-radius: 15px;
+    border: none;
 }
 /*--------------------------------------------------------TEXTE--------------------------------------------------------------------*/
 .suppuce{
@@ -55,6 +67,10 @@ header{
 /*-----------------------------------------------------------CLASSE DE TAILLE------------------------------------------------------*/
 .w-100 {
     width: 100%;
+}
+
+.w-70{
+    width: 70%;
 }
 
 .w-50 {
@@ -116,8 +132,20 @@ header{
     margin-top: 128px;
 }
 
+.mgt110{
+    margin-top: 110px;
+}
+
 .mgt100{
     margin-top: 100px;
+}
+
+.mgt80{
+    margin-top: 80px;
+}
+
+.mgt70{
+    margin-top: 70px;
 }
 
 .mgt50 {
@@ -148,6 +176,13 @@ header{
     margin-bottom: 15px;
 }
 
+.mgl250{
+    margin-left: 250px;
+}
+
+.mgl575{
+    margin-left: 575px;
+}
 /*----------------------------------------------------CONTAINER----------------------------------------------*/
 .container1000 {
     max-width: 1000px;
@@ -161,6 +196,10 @@ header{
 
 .txtblue{
     color: #103571;
+}
+
+.txt-ciel{
+    color: #63a8e6;
 }
 
 .txtblack{
@@ -184,6 +223,10 @@ header{
 }
 
 /*----------------------------------------------------CARD ET BOUTTON----------------------------------------------*/
+.bg-alice{
+    background-color: aliceblue;
+}
+
 .bg-blue{
     background-color: #103571;
 }
@@ -198,18 +241,40 @@ header{
     background-color: #103571;
     padding: 10px 30px;
     border-radius: 15px;
+    border:  solid 2px #63a8e6;
 }
 
-.card-grise{
-background-color: #bbc3d0;
+.btn-border-ciel{
+    border: solid 2px #63a8e6;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.btn-ciel{
+    background-color: #63a8e6;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: solid 2px aliceblue;
+}
+
+.big-card-bleu{
+background-color:#103571;
 padding: 15px 20px;
 border-radius: 15px;
 border: solid 1px #ffffff;
+border: solid 2px #63a8e6;
 }
 
 .card-blue{
     background-color: #103571;
     padding: 15px 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+    border: solid 2px #63a8e6;
+}
+
+.card-ciel{
+    background-color: #63a8e6;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: solid 2px aliceblue;
 }
