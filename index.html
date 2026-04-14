@@ -6,165 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 </head>
 
 <body>
-    <header>
-        <img src="asset/motion-designer/logo.png" alt="">
-        <nav>
-            <a href="">Promesse</a>
-            <a href="">Service Proposé</a>
-            <a href="">Réalisation</a>
-            <a href="">Témoignages</a>
+    <header class="flex space-between center-ver">
+        <img src="asset/motion-designer/transparent-logo.png" alt="" width="5%" class="blanc">
+        <nav class="flex gap30 align-center">
+            <a href="#promesse" class="txtalice txt-center">Promesse</a>
+            <a href="#service" class="txtalice txt-center">Service Proposé</a>
+            <a href="#réalisation" class="txtalice txt-center">Réalisation</a>
+            <a href="#témoignage" class="txtalice txt-center">Témoignages</a>
         </nav>
-        <a href="">Contact</a>
+        <a href="#contact" class="txtalice txt-center btn-gris">Contact</a>
     </header>
 
-    <main>
+    <main class="container1000">
         <!-- section hero  -->
-        <section>
-            <div>
-                <h1></h1>
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
+        <section class="flex space-between mgt100">
+            <div class="w-48">
+                <h1 class="txtalice mgt50">Léo Vanel Motion</h1>
+                <h3 class="txtalice mgt30">Donner vie à vos idées par le mouvement</h3>
+                <a href="" class="change-a mgt30 gap10 btn-gris txtblack">Votre devis sous 24h</a>
+                <a href="" class="change-a mgt30 btn-hero txtblack">Voir mes projets</a>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="w-48">
+                <img src="asset/motion-designer/couverture.png" alt="" width="100%" class="br-15">
             </div>
         </section>
         <!-- section promesse et triple photo -->
-        <section>
-            <h2></h2>
-            <p></p>
-            <div>
-                <div>
-                    <img src="" alt="">
+        <section id="promesse" class="mgt100">
+            <h2 class="txtalice txt-center">Arguments Clients</h2>
+            <p class="txtalice txt-center mgt30">Une vision artistique et professionnelle au service de votre
+                communication</p>
+            <div class="flex space-between card-grise mgt30">
+                <div class="w-48 mgt30">
+                    <img src="asset/motion-designer/promesse.png" alt="" width="50%" class="br-15">
                     <img src="" alt="">
                     <img src="" alt="">
                 </div>
-                <div>
-                    <i></i>
-                    <p></p>
-                    <i></i>
-                    <p></p>
-                    <i></i>
-                    <p></p>
-                    <i></i>
-                    <p></p>
+                <div class="w-48 mgt30 ">
+                    <i class="ph ph-check-circle"></i>
+                    <p> Un style d’animation fluide et expressif, adapté à chaque univers de marque</p>
+
+                    <i class="ph ph-check-circle"></i>
+                    <p>Une écoute attentive pour comprendre vos besoins et votre ton</p>
+
+                    <i class="ph ph-check-circle"></i>
+                    <p>Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</p>
+
+                    <i class="ph ph-check-circle"></i>
+                    <p>Un workflow agile pour une production rapide et collaborative</p>
+
+                    <a href="" class="change-a btn-blue txtalice mgt30">Votre devis sous 24h</a>
                 </div>
-                <a href=""></a>
+
             </div>
         </section>
-        <!-- section triple carte  -->
-        <section>
-            <div>
+        <!-- section Service Proposé + triple carte  -->
+        <section id="service" class="mgt100">
+            <h2 class="txt-center txtalice">Service Proposé</h2>
+            <div class="flex space-between mgt50 card-grise">
                 <!-- carte une -->
-                <div>
+                <div class="w-30 card-blue txt-center">
                     <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                    <h3 class="txtalice">Animation 2D / 3D</h3>
+                    <p class="txtalice mgt30">Conception et animation de visuels dynamiques pour vos vidéos, publicités, ou
+                        présentations professionnelles</p>
+                    <a href="asset/motion-designer/services/animation.png" class="btn-gris change-a txt-center mgt30 txtblack">Voir mes projets</a>
                 </div>
                 <!-- carte deux -->
-                <div>
+                <div class="w-30 card-blue txt-center">
                     <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                    <h3 class="txtalice">Vidéo explicative</h3>
+                    <p class="txtalice mgt30"> Création de vidéos animées pédagogiques pour présenter un service, un produit
+                        ou une idée de manière claire et engageante.</p>
+                    <a href="asset/motion-designer/services/video-explicative.png" class="btn-gris change-a txt-center mgt30 txtblack">Voir mes projets</a>
                 </div>
                 <!-- carte trois -->
-                <div>
+                <div class="w-30 card-blue txt-center">
                     <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                    <h3 class="txtalice">Identité animée</h3>
+                    <p class="txtalice mgt30">Animation de logos et d’éléments graphiques pour renforcer la reconnaissance de
+                        votre marque dans vos contenus vidéo.</p>
+                    <a href="asset/motion-designer/services/identite-animee.png" class="btn-gris change-a txt-center mgt30 txtblack">Voir mes projets</a>
                 </div>
             </div>
         </section>
         <!-- section realisation avec 4 grosse div -->
-        <section>
-            <h2></h2>
+        <section id="réalisation" class="mgt100">
+            <h2>Projets</h2>
             <!-- div normal -->
             <div>
                 <div>
-                    <img src="" alt="">
+                    <img src="asset/motion-designer/projets/atelier-nimbus.png" alt="" width="50%">
                 </div>
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3> Logo animé – Atelier Nimbus</h3>
+                    <p>Création d’une animation de logo pour une marque de textile éthique.
+                        Mouvement doux et organique, évoquant la légèreté du coton bio.</p>
                 </div>
             </div>
             <!-- div inverser -->
             <div>
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3>Vidéo explicative – Fintrack App</h3>
+                    <p>Réalisation d’une vidéo animée présentant une application de gestion
+                        financière. Un ton clair, moderne et accessible.</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="asset/motion-designer/projets/fintrack.png" alt="" width="50%">
                 </div>
             </div>
             <!-- div normal -->
             <div>
                 <div>
-                    <img src="" alt="">
+                    <img src="asset/motion-designer/projets/festival-futur.png" alt="" width="50%">
                 </div>
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3>Campagne motion – Festival du Futur</h3>
+                    <p>Animation d’affiches et de vidéos teaser pour un festival de création
+                        numérique. Style vibrant et typographies en mouvement.</p>
                 </div>
             </div>
             <!-- div inverser -->
             <div>
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3>Habillage vidéo – GrooveTV</h3>
+                    <p> Création de transitions, jingles et lower thirds pour une chaîne web.
+                        Identité graphique énergique et rythmée.</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="asset/motion-designer/projets/groove-tv.png" alt="" width="50%">
                 </div>
             </div>
         </section>
         <!-- section temoignage -->
-        <section>
-            <h2></h2>
-            <i></i>
+        <section id="témoignage">
+            <h2>Retours</h2>
+            <i class="ph ph-arrow-circle-left"></i>
             <div>
-                <p></p>
+                <p>Camille</p>
                 <div>
                     <img src="" alt="">
-                    <p></p>
-                    <p></p>
+                    <p>Vidéo explicative</p>
+                    <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
+                        rendu est à la fois professionnel et accessible. Parfait pour nos clients !
+                    </p>
                 </div>
             </div>
             <div>
-                <p></p>
+                <p>Rachid</p>
                 <div>
                     <img src="" alt="">
-                    <p></p>
-                    <p></p>
+                    <p>Logo animé</p>
+                    <p>Animation fluide, cohérente avec notre charte, livrée dans les temps. Très
+                        bon échange tout au long du projet.</p>
                 </div>
             </div>
-            <i></i>
+            <div>
+                <p>Élise</p>
+                <div>
+                    <img src="" alt="">
+                    <p>Habillage vidéo</p>
+                    <p>Une super collaboration : Léo a su s’adapter à nos contraintes techniques
+                        et proposer des idées originales. Résultat top !</p>
+                </div>
+            </div>
+            <i class="ph ph-arrow-circle-right"></i>
         </section>
     </main>
 
     <!-- et le footer de trouble -->
-    <footer>
+    <footer id="contact">
         <div>
             <div>
-                <h3></h3>
-                <p></p>
-                <a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+                <h3>Prêts à travailler ensemble ?</h3>
+                <p>Une idée, un projet, une envie de collaboration ?<br>
+                    Contactez-nous, nous serons ravis d’en discuter et de voir <br>
+                    comment avancer ensemble. <br>
+                    Laissez votre contact téléphonique et je vous rappellerai.</p>
+                <a href=""><i class="ph ph-discord-logo"></i></a><a href=""><i class="ph ph-facebook-logo"></i></a><a
+                    href=""><i class="ph ph-dribbble-logo"></i></a><a href=""><i class="ph ph-instagram-logo"></i></a><a
+                    href=""><i class="ph ph-behance-logo"></i></a>
             </div>
             <div>
-                <input type="text"><input type="text"><input type="text"><input type="text">
+                <input type="text" value="Nom">
+                <input type="text" value="Telephone">
+                <input type="text" value="Email">
+                <input type="text" value="Message">
             </div>
-            <a href=""></a>
+            <a href="">Envoyer</a>
         </div>
     </footer>
 </body>
