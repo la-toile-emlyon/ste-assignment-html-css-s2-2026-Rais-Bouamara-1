@@ -23,43 +23,44 @@ h3 {
     font-family: "Space Grotesk", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
-    padding: 40px 80px;
-    border-radius:0px 0px 15px 15px;
+header {
+    padding: 20px 80px;
+    border-radius: 0px 0px 15px 15px;
 }
 
-footer{
+footer {
     padding: 40px 80px;
-    border-radius:15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
-input{
+input {
     padding: 15px 15px;
     border-radius: 15px;
     border: none;
 }
+
 /*--------------------------------------------------------TEXTE--------------------------------------------------------------------*/
-.suppuce{
+.suppuce {
     list-style-type: none;
 }
 
-.no-line{
+.no-line {
     text-decoration: none;
 }
 
-.bold{
+.bold {
     font-weight: 800;
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
 }
 
-.majuscule{
+.majuscule {
     text-transform: uppercase;
 }
 
@@ -69,7 +70,7 @@ input{
     width: 100%;
 }
 
-.w-70{
+.w-70 {
     width: 70%;
 }
 
@@ -101,7 +102,7 @@ input{
     gap: 30px;
 }
 
-.gap10{
+.gap10 {
     gap: 10px;
 }
 
@@ -124,27 +125,39 @@ input{
     justify-content: center;
 }
 
-.change-a{
+.change-a {
     display: inline-block;
 }
+
+.column{
+    flex-direction: column;
+}
+
+.end{
+    justify-content: flex-end;
+}
 /*--------------------------------------------------------MARGIN ET PADDING----------------------------------------------------------*/
+.mgt200 {
+    margin-top: 200px;
+}
+
 .mgt128 {
     margin-top: 128px;
 }
 
-.mgt110{
+.mgt110 {
     margin-top: 110px;
 }
 
-.mgt100{
+.mgt100 {
     margin-top: 100px;
 }
 
-.mgt80{
+.mgt80 {
     margin-top: 80px;
 }
 
-.mgt70{
+.mgt70 {
     margin-top: 70px;
 }
 
@@ -160,12 +173,20 @@ input{
     margin-top: 25px;
 }
 
+.mgtN66 {
+    margin-top: -66px;
+}
+
 .mgb128 {
     margin-bottom: 128px;
 }
 
 .mgb50 {
     margin-bottom: 50px;
+}
+
+.mgb48 {
+    margin-bottom: 48px;
 }
 
 .mgb30 {
@@ -176,12 +197,20 @@ input{
     margin-bottom: 15px;
 }
 
-.mgl250{
+.mgl250 {
     margin-left: 250px;
 }
 
-.mgl575{
+.mgl575 {
     margin-left: 575px;
+}
+
+.mgl370{
+    margin-left: 370px;
+}
+
+.mgl25{
+    margin-left: 25px;
 }
 /*----------------------------------------------------CONTAINER----------------------------------------------*/
 .container1000 {
@@ -189,92 +218,109 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
+
 /*----------------------------------------------------CLASSE DE COULEURS----------------------------------------------*/
-.txtalice{
+.txtalice {
     color: aliceblue;
 }
 
-.txtblue{
+.txtblue {
     color: #103571;
 }
 
-.txt-ciel{
+.txt-ciel {
     color: #63a8e6;
 }
 
-.txtblack{
+.txtblack {
     color: black;
 }
 
-.blanc{
+.blanc {
     filter: invert(1) saturate(0) brightness(8);
 }
+
 /*----------------------------------------------------ARRONDIE ET DEPLACEMENT----------------------------------------------*/
-.rond-header{
+.rond-header {
     border-radius: 50%;
 }
 
-.br-15{
+.br-15 {
     border-radius: 15px;
 }
 
-.moove-logo{
+.moove-logo {
     transform: translate(0px 0px);
 }
 
 /*----------------------------------------------------CARD ET BOUTTON----------------------------------------------*/
-.bg-alice{
+.bg-alice {
     background-color: aliceblue;
 }
 
-.bg-blue{
+.bg-bleu{
     background-color: #103571;
 }
 
-.btn-gris{
+.bg-blue {
+    background: linear-gradient(to bottom, #103571, #63a8e6);
+}
+
+.bg-blue2 {
+    background: linear-gradient(to top, #103571, #63a8e6);
+}
+
+.btn-gris {
     background-color: #bbc3d0;
     padding: 10px 30px;
     border-radius: 15px;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #103571;
     padding: 10px 30px;
     border-radius: 15px;
-    border:  solid 2px #63a8e6;
+    border: solid 2px #63a8e6;
 }
 
-.btn-border-ciel{
+.btn-border-ciel {
     border: solid 2px #63a8e6;
     padding: 10px 30px;
     border-radius: 15px;
 }
 
-.btn-ciel{
+.btn-ciel {
     background-color: #63a8e6;
     padding: 10px 30px;
     border-radius: 15px;
     border: solid 2px aliceblue;
 }
 
-.big-card-bleu{
-background-color:#103571;
-padding: 15px 20px;
-border-radius: 15px;
-border: solid 1px #ffffff;
-border: solid 2px #63a8e6;
+.big-card-bleu {
+    background-color: #103571;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: solid 1px #ffffff;
+    border: solid 2px #63a8e6;
 }
 
-.card-blue{
+.card-blue {
     background-color: #103571;
     padding: 15px 20px;
     border-radius: 15px;
     border: solid 2px #63a8e6;
 }
 
-.card-ciel{
+.card-ciel {
     background-color: #63a8e6;
     padding: 15px 20px;
     border-radius: 15px;
     border: solid 2px aliceblue;
+}
+
+.card-blanche{
+    background-color: aliceblue;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border:solid 2px #63a8e6
 }
