@@ -270,6 +270,20 @@ input {
     background: linear-gradient(to top, #103571, #63a8e6);
 }
 
+.bg-work{
+    background-image: url(asset/motion-designer/téléchargement\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.bg-projet{
+     background-image: url(asset/motion-designer/téléchargement\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+}
+
 .btn-gris {
     background-color: #bbc3d0;
     padding: 10px 30px;
@@ -295,6 +309,12 @@ input {
     border-radius: 15px;
     border: solid 2px aliceblue;
 }
+
+.btn-hover {
+  transform: scale(1.1);
+  background: #2575fc;
+}
+
 
 .big-card-bleu {
     background-color: #103571;
